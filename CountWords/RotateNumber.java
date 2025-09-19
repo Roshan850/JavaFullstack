@@ -32,16 +32,7 @@ public  class RotateNumber {
     public static void main(String[] args) {
         RotateNumber r = new RotateNumber();
         System.out.println(r.rotate(12345, -1));
-        int a = 0;
-        int e = 0;
-        int i = 0;
-        int o = 0;
-        int u = 0;
-        int A = 0;
-        int E = 0;
-        int I = 0;
-        int O = 0;
-        int U = 0;
+       
          Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
         int count = 0;
