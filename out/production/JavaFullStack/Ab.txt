@@ -1,0 +1,2 @@
+Hello, this is printed without System.out!
+Everything goes directly to output.txt
