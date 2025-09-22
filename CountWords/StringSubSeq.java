@@ -27,14 +27,23 @@ public class StringSubSeq {
 
     public void subCode(String str, String empty) {
         if (str.length() <= 0) {
-            System.out.print(empty+" ");
+            System.out.print(empty + ", ");
             return;
         }
         char ch = str.charAt(0);
         subCode(str.substring(1), empty + ch);
         subCode(str.substring(1), empty);
+
+    }
+
+    public boolean subSequence(String str, String t) {
+        int n = str.length();
+        
+        
         
     }
+    
+
 
     public static void main(String[] args) {
         String input = "joy";
@@ -44,5 +53,8 @@ public class StringSubSeq {
         System.out.println("Subsequences of \"" + input + "\": " + subsequences);
         StringSubSeq s = new StringSubSeq();
         s.subCode(input, " ");
+        String s = "abc";
+        String t = "ahbgdc";
+        boolean res = s.subSequence(s, t);
     }
 }
